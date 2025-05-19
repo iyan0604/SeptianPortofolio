@@ -1,0 +1,72 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e3f2fd;
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Menempatkan teks ke tengah */
+  }
+  
+  h2 {
+    color: #1e88e5;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  h3 {
+    color: #0288d1;
+    text-align: center;
+    margin-left: 20px;
+  }
+  
+  p {
+    color: #333;
+    padding: 0 20px;
+    text-align: center; /* Menempatkan teks ke tengah */
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul li {
+    background-color: #ffffff;
+    margin: 10px 20px;
+    padding: 15px;
+    border: 2px solid #0288d1;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    text-align: center; /* Menempatkan teks ke tengah */
+  }
+  
+  ul li:hover {
+    background-color: #ffecb3;
+    transform: scale(1.05);
+  }
+  
+  h3 {
+    margin: 20px 0 10px 0;
+  }
+  
+  .container {
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+    text-align: center; /* Menempatkan teks ke tengah */
+  }
+  
+  .content {
+    background: rgba(255, 255, 255, 0.8); /* Menggunakan latar belakang semi-transparan */
+    padding: 20px;
+    margin: 20px 0;
+    border: 2px solid #0288d1;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  br {
+    margin-bottom: 20px;
+  }
+  

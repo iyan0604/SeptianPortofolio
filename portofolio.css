@@ -1,0 +1,117 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.2;
+    color: #333;
+}
+
+
+.navbar {
+    background-color: #333;
+    padding: 20px 0;
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar ul li {
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar ul li a:hover {
+    color: #00c9db; 
+}
+
+
+section {
+    padding: 40px 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+h1, h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+p {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+
+.section-home {
+    background-color: #5c6bc0;
+    color: white;
+}
+
+
+.section-about {
+    background-color: #fff;
+    height: 400px;
+}
+
+.section-pendidikan {
+    background-color: #fff;
+    height: 200px;
+    text-align: center;
+
+}
+
+.profile {
+    text-align: center;
+}
+
+.profile-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #ddd;
+    margin-bottom: 20px;
+}
+
+.section-pipas {
+    background-color: #fff;
+    height: 600px;
+}
+
+
+.section-contact {
+    background-color: #b3e5fc;
+}
+
+
+
+.section-revolusi {
+    background-color: #fff;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ff6347;
+}
